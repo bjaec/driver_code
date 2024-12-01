@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "ios": "c",
+        "sensor.h": "c"
+    }
+}

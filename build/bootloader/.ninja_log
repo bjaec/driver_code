@@ -1,0 +1,259 @@
+# ninja log v6
+17	355	1733008706388189519	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj	89ea4b8b677faf17
+13	387	1733008706384638102	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj	93f1a2430056be10
+17	612	1733008706388622108	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_systimer.c.obj	76807b62f44e394d
+612	854	1733008706983907484	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_writeback_esp32s3.S.obj	9fcb06286a66829b
+355	902	1733008706726978535	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_wdt.c.obj	449527131fbda0b4
+13	1766	1733008706385033148	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj	76eed1d293228c7c
+14	1767	1733008706385396819	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj	a320167cc1de3233
+16	1846	1733008706387808640	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj	17d38c89d8c69208
+14	1983	1733008706385763698	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj	c26878e8a0371326
+12	2024	1733008706384244055	esp-idf/log/CMakeFiles/__idf_log.dir/log_noos.c.obj	8dec4e4efbc95f78
+12	2332	1733008706383711882	esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj	1d598b706b97b9df
+387	2404	1733008706758672664	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_esp32s2_esp32s3.c.obj	f0da960b73e59325
+12	2523	1733008706383145959	esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj	31b3971d6f070002
+854	2599	1733008707225687626	esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj	e5401017ea9eddfc
+1767	2640	1733008708138562398	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj	b93a35a9608d039e
+2523	2686	1733008708894972987	esp-idf/log/liblog.a	22d2119d27c33896
+1766	2818	1733008708137613678	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/esp_cpu_intr.c.obj	a9b94d289777fd78
+902	2841	1733008707273499282	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj	be1bb9a88d8f2784
+2687	2884	1733008709058206469	esp-idf/esp_rom/libesp_rom.a	dea3fd9ad8645f69
+1846	2907	1733008708217550756	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/cpu_region_protect.c.obj	f778248ef2143f79
+2884	3023	1733008709255948903	esp-idf/esp_common/libesp_common.a	dda151063cfa200a
+2841	3205	1733008709212524428	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_table.c.obj	ca511a54bb06c20
+2025	3333	1733008708396242429	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_clk_init.c.obj	13fd6cfd9a797ed
+2641	3480	1733008709012318548	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/chip_info.c.obj	df6aa1e2f52a4b02
+1983	3766	1733008708354655350	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_clk.c.obj	bda909cb6ee09ab0
+2818	3817	1733008709189992036	esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj	c0e4a10d245f101f
+2907	3823	1733008709278968302	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_fields.c.obj	3e9fa928b3c4675d
+2404	3913	1733008708775951030	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_sleep.c.obj	eb0a4e0f866767c4
+2332	4136	1733008708703697421	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_init.c.obj	f24e2b3d6b9b37a4
+2600	4237	1733008708971252352	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_time.c.obj	be2b67867e008a18
+3023	4394	1733008709394717720	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_rtc_calib.c.obj	8c9d960af653cece
+4237	4425	1733008710608710401	esp-idf/esp_hw_support/libesp_hw_support.a	af4033b6e52294ba
+4425	4560	1733008710796906876	esp-idf/esp_system/libesp_system.a	d371f9073bd8da01
+3480	4588	1733008709851560305	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj	22ab9afbaf21ed61
+3205	4654	1733008709576701171	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_utility.c.obj	10d7cf12ba9b55c2
+3333	4954	1733008709705134944	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj	9b2441fc581a3e49
+4394	5003	1733008710765867050	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj	f21fa324ddf7f4d8
+4954	5254	1733008711325670836	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj	ea6f91b6567100fd
+4136	5273	1733008710507536746	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj	b33b9e8b5c4531a9
+4588	5364	1733008710959659258	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj	34ec26a310aab15b
+3914	5455	1733008710285188362	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj	fd6a6a019b7b7d55
+3823	5537	1733008710195000793	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj	43336a321ab6559
+3817	5684	1733008710188666551	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c.obj	7ed9b959b5951f04
+3766	5817	1733008710137378193	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj	a68a0e588fc76f19
+4560	5902	1733008710932188309	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj	d61a9604bc6d51a7
+5003	6012	1733008711375082462	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32s3.c.obj	a75a9e11be486ded
+4654	6266	1733008711025468162	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj	698427d0969cb14f
+5903	6860	1733008712274235152	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_loader.c.obj	8643056313459b3d
+5364	7042	1733008711736053722	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32s3.c.obj	9a7f2e7a4703d7f5
+5537	7082	1733008711908532839	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj	d569eb3ece482aa8
+5273	7085	1733008711644314849	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj	284861f84bd4f737
+6266	7136	1733008712637446223	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console_loader.c.obj	e1b4570743f8a0f8
+6012	7359	1733008712383979988	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj	3f48660045adae56
+7137	7364	1733008713508308011	esp-idf/efuse/libefuse.a	f3cfc7525a9f0abe
+5817	7416	1733008712189127732	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_init.c.obj	75716964f3f1234d
+5254	7609	1733008711626054217	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj	bc3d8f533f1821bc
+6860	7803	1733008713231767841	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_sha.c.obj	c50ed8ef5d748531
+5456	7808	1733008711827460300	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj	6db20af170dafb9b
+7042	7884	1733008713413896067	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_soc.c.obj	d0fd6918bf669f16
+7359	7992	1733008713730430785	esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/esp_bootloader_desc.c.obj	e4d71c792eb9fe9d
+7085	8162	1733008713456448609	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_panic.c.obj	2b90b1f9953993fe
+5685	8217	1733008712056331416	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj	77817c8f4a53d78f
+7082	8410	1733008713453774869	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_esp32s3.c.obj	31a161d5806fd556
+7610	8479	1733008713981251813	esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj	c4c833855cc0948b
+7364	8668	1733008713735969100	esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj	dc0172b80e9ea618
+8410	8704	1733008714782029831	esp-idf/bootloader_support/libbootloader_support.a	632a32b351a74f68
+7417	8743	1733008713788262880	esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj	fd0bb6a4ee22a13c
+8704	8842	1733008715075820605	esp-idf/esp_bootloader_format/libesp_bootloader_format.a	a996903740f71350
+7803	8884	1733008714174534831	esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj	b364f7075db9a986
+8668	8899	1733008715039701016	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj	fd3d78d902cc8c0
+8743	8979	1733008715114502225	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj	4d3c768b5c7a0d55
+8844	8984	1733008715215445283	esp-idf/spi_flash/libspi_flash.a	dce0d569c954c2f0
+7809	9132	1733008714180323899	esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj	2cd9989d5864c5f9
+8899	9135	1733008715270441094	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj	1295d0c39b51f59c
+8884	9179	1733008715255644962	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj	777876bf76c52e49
+8984	9290	1733008715355718759	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.obj	c08a13753bd1ac0e
+8979	9305	1733008715350629658	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj	49c248f11914aed0
+8217	9386	1733008714588774317	esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj	b5a78516ba227046
+9179	9444	1733008715551094504	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.obj	8bb2aa662dce48ed
+9135	9447	1733008715506900654	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj	37af3738b303cc45
+9132	9449	1733008715503759993	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj	79f0452823e6e416
+9305	9547	1733008715676758640	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj	2e338a8fdbcf30cd
+7992	9551	1733008714363676510	esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj	3ec448dc2d8b95e
+9290	9553	1733008715662214762	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj	35211e01815bbd8e
+8479	9633	1733008714850677927	esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj	df8b084cc7de8e2b
+7884	9639	1733008714255760785	esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj	1ab1a4845ea6fa22
+9447	9705	1733008715818601715	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj	ee768e2ea8438980
+9386	9754	1733008715757451125	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.obj	de9362916a0c4dcf
+9450	9783	1733008715821296497	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.obj	c75778011b996971
+9639	9826	1733008716010859754	esp-idf/hal/libhal.a	37c7745585229887
+9445	9847	1733008715816344064	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.obj	43ccff166baf199f
+9547	9876	1733008715919223725	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.obj	8760ea5ea53c78e9
+9554	9929	1733008715925561632	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj	48a64b8819302f66
+9551	9948	1733008715922920310	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.obj	10427e528e673895
+9633	9978	1733008716004395221	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj	1729ee9231352a44
+9949	9996	1733008716366112741	project_elf_src_esp32s3.c	ce9d0539503cabd2
+9949	9996	1733008716366112741	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/project_elf_src_esp32s3.c	ce9d0539503cabd2
+9705	10025	1733008716076548398	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj	fab620c57126e2cf
+9783	10082	1733008716154499725	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_periph.c.obj	4653dcd8f5550af0
+9754	10095	1733008716125887224	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj	3a5c5846b2efba7a
+9826	10180	1733008716197483728	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.obj	57659e69755b57c
+9848	10180	1733008716219366234	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj	b7911711bbb4a95d
+9996	10185	1733008716368164265	CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj	9f2e8058b776fce5
+9876	10348	1733008716247636189	esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj	e1a69a341b7c0864
+9929	10514	1733008716300649018	esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj	1d555c28eaec728b
+9978	10594	1733008716349783009	esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj	1a6f509c898bf1fb
+8162	10818	1733008714533459002	esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj	656046b8c2633ef1
+10818	10915	1733008717189402477	esp-idf/micro-ecc/libmicro-ecc.a	1d0d4f3611477d7c
+10915	11097	1733008717287134367	esp-idf/soc/libsoc.a	245e5f3e8e59236a
+11097	11198	1733008717469192575	esp-idf/xtensa/libxtensa.a	4bb5aef310387d02
+11198	11288	1733008717569506202	esp-idf/main/libmain.a	3a9a66466237659a
+11288	11482	1733008717660182550	bootloader.elf	3dc9e9352f55f20e
+11482	11730	1733008718100968309	.bin_timestamp	5c1fd8a3461713ec
+11482	11730	1733008718100968309	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/.bin_timestamp	5c1fd8a3461713ec
+11731	11812	1733008718102285991	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+11731	11812	1733008718102285991	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+14	80	1733008725036570101	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+14	80	1733008725036570101	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+14	90	1733008774633329553	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+14	90	1733008774633329553	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+7	78	1733008776800550991	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+7	78	1733008776800550991	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+14	83	1733008858942805311	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+14	83	1733008858942805311	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	82	1733008860851244839	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	82	1733008860851244839	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	71	1733009268880884771	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	71	1733009268880884771	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+9	82	1733009270963461900	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+9	82	1733009270963461900	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+18	81	1733009384960914312	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+18	81	1733009384960914312	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	80	1733009386876672423	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	80	1733009386876672423	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	74	1733009425388363042	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	74	1733009425388363042	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	75	1733009441913965666	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	75	1733009441913965666	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	85	1733009487899273456	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	85	1733009487899273456	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	75	1733009498257477563	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	75	1733009498257477563	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	74	1733009541886206531	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	74	1733009541886206531	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	69	1733009543764093630	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	69	1733009543764093630	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	78	1733009873302748399	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	78	1733009873302748399	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	67	1733009875084101568	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	67	1733009875084101568	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+15	95	1733010532277544705	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+15	95	1733010532277544705	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+8	73	1733010534277205637	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+8	73	1733010534277205637	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	85	1733010806061481417	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	85	1733010806061481417	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	73	1733010807885669829	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	73	1733010807885669829	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+11	73	1733010829459492094	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+11	73	1733010829459492094	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	68	1733010831394638670	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	68	1733010831394638670	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	76	1733011026584912413	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	76	1733011026584912413	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+14	81	1733011037689570849	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+14	81	1733011037689570849	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	81	1733011062130869395	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	81	1733011062130869395	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	66	1733011064105995429	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	66	1733011064105995429	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	83	1733011114667932995	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	83	1733011114667932995	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	86	1733011125262280678	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	86	1733011125262280678	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	84	1733011216611946048	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	84	1733011216611946048	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	70	1733011218656763543	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	70	1733011218656763543	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	78	1733011241814882093	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	78	1733011241814882093	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	79	1733011252043885046	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	79	1733011252043885046	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+15	90	1733011764847872985	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+15	90	1733011764847872985	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	77	1733011775458692933	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	77	1733011775458692933	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	79	1733011939057848702	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	79	1733011939057848702	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+24	91	1733011950345336377	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+24	91	1733011950345336377	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+34	103	1733011962790188350	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+34	103	1733011962790188350	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+9	90	1733011969876673140	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+9	90	1733011969876673140	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	72	1733011980816859840	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	72	1733011980816859840	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+15	85	1733012021875924465	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+15	85	1733012021875924465	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+14	75	1733012032007663296	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+14	75	1733012032007663296	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	77	1733012101579558596	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	77	1733012101579558596	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	125	1733012103491969923	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+6	125	1733012103491969923	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+16	83	1733012130839270152	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+16	83	1733012130839270152	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+55	116	1733012142413759692	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+55	116	1733012142413759692	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+11	83	1733012191746619428	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+11	83	1733012191746619428	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+10	78	1733012193831622181	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+10	78	1733012193831622181	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+15	89	1733013391876512741	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+15	89	1733013391876512741	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	81	1733013402689921429	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	81	1733013402689921429	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+15	79	1733016306560261958	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+15	79	1733016306560261958	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+7	75	1733016308453614721	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+7	75	1733016308453614721	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+16	88	1733018819829944198	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+16	88	1733018819829944198	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+20	92	1733018834830584325	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+20	92	1733018834830584325	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	81	1733018913347792942	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	81	1733018913347792942	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+16	94	1733018925247001704	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+16	94	1733018925247001704	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	76	1733019074465135406	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	76	1733019074465135406	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+22	169	1733019087614746534	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+22	169	1733019087614746534	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+20	83	1733019267615430438	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+20	83	1733019267615430438	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	77	1733019297949994053	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	77	1733019297949994053	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	84	1733019318123137526	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	84	1733019318123137526	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+19	85	1733019330436652511	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+19	85	1733019330436652511	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+14	80	1733019470598798880	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+14	80	1733019470598798880	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+11	90	1733019482615630646	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+11	90	1733019482615630646	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	107	1733020107978519570	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	107	1733020107978519570	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	79	1733020234404295354	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+13	79	1733020234404295354	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+15	81	1733020371605238849	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+15	81	1733020371605238849	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	97	1733020396023618699	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	97	1733020396023618699	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+23	88	1733020409337008045	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+23	88	1733020409337008045	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	74	1733020693727529463	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+12	74	1733020693727529463	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+23	91	1733020706127899157	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d
+23	91	1733020706127899157	/Users/bryantchung/Duke/Senior Year/CS 655/esp/esp-idf/Labs/Course Project/bRing/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	5334c6840386a11d

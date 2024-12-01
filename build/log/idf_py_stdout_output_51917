@@ -1,0 +1,1118 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x178c
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xcb8
+load:0x403cb700,len:0x2db0
+entry 0x403c8914
+[0;32mI (23) boot: ESP-IDF v5.3.1-dirty 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Nov 30 2024 18:18:33[0m
+[0;32mI (24) boot: Multicore bootloader[0m
+[0;32mI (27) boot: chip revision: v0.1[0m
+[0;32mI (31) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (36) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (45) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (54) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (62) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (69) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (77) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (84) boot: End of partition table[0m
+[0;32mI (88) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0f214h ( 61972) map[0m
+[0;32mI (108) esp_image: segment 1: paddr=0001f23c vaddr=3fc94700 size=00ddch (  3548) load[0m
+[0;32mI (109) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=28e84h (167556) map[0m
+[0;32mI (144) esp_image: segment 3: paddr=00048eac vaddr=3fc954dc size=02each ( 11948) load[0m
+[0;32mI (146) esp_image: segment 4: paddr=0004bd60 vaddr=40374000 size=106a8h ( 67240) load[0m
+[0;32mI (171) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (171) boot: Disabling RNG early entropy source...[0m
+[0;32mI (183) cpu_start: Multicore app[0m
+[0;32mI (192) cpu_start: Pro cpu start user code[0m
+[0;32mI (192) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (192) app_init: Application information:[0m
+[0;32mI (195) app_init: Project name:     main[0m
+[0;32mI (200) app_init: App version:      v5.3.1-dirty[0m
+[0;32mI (205) app_init: Compile time:     Nov 30 2024 18:17:26[0m
+[0;32mI (211) app_init: ELF file SHA256:  a6047ec08...[0m
+[0;32mI (216) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (222) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (226) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (231) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (236) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (243) heap_init: At 3FC98C90 len 00050A80 (322 KiB): RAM[0m
+[0;32mI (249) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (255) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (262) heap_init: At 600FE100 len 00001EE8 (7 KiB): RTCRAM[0m
+[0;32mI (269) spi_flash: detected chip: gd[0m
+[0;32mI (272) spi_flash: flash io: dio[0m
+[0;33mW (276) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (289) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (300) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (307) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (314) main_task: Started on CPU0[0m
+[0;32mI (324) main_task: Calling app_main()[0m
+[0;32mI (344) camera: Available PSRAM: 0 bytes[0m
+[0;32mI (344) camera: Available Default SRAM: 369340 bytes[0m
+[0;32mI (344) s3 ll_cam: DMA Channel=0[0m
+[0;32mI (344) cam_hal: cam init ok[0m
+[0;32mI (354) sccb: pin_sda 35 pin_scl 36[0m
+[0;32mI (354) sccb: sccb_i2c_port=0[0m
+[0;32mI (354) gpio: GPIO[10]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (384) gpio: GPIO[11]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (414) camera: SCCB_Probe returned address: 0x00[0m
+[0;31mE (414) camera: No camera detected during SCCB probe[0m
+[0;31mE (414) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (414) gdma: gdma_disconnect(314): no peripheral is connected to the channel[0m
+[0;31mE (424) camera: Camera init failed with error 0x105[0m
+[0;32mI (434) camera: *** took picture? ***[0m
+[0;32mI (10434) camera: *** took picture? ***[0m
+[0;32mI (20434) camera: *** took picture? ***[0m
+[0;32mI (30434) camera: *** took picture? ***[0m
+[0;32mI (40434) camera: *** took picture? ***[0m
+[0;32mI (50434) camera: *** took picture? ***[0m
+[0;32mI (60434) camera: *** took picture? ***[0m
+[0;32mI (70434) camera: *** took picture? ***[0m
+[0;32mI (80434) camera: *** took picture? ***[0m
+[0;32mI (90434) camera: *** took picture? ***[0m
+[0;32mI (100434) camera: *** took picture? ***[0m
+[0;32mI (110434) camera: *** took picture? ***[0m
+[0;32mI (120434) camera: *** took picture? ***[0m
+[0;32mI (130434) camera: *** took picture? ***[0m
+[0;32mI (140434) camera: *** took picture? ***[0m
+[0;32mI (150434) camera: *** took picture? ***[0m
+[0;32mI (160434) camera: *** took picture? ***[0m
+[0;32mI (170434) camera: *** took picture? ***[0m
+[0;32mI (180434) camera: *** took picture? ***[0m
+[0;32mI (190434) camera: *** took picture? ***[0m
+[0;32mI (200434) camera: *** took picture? ***[0m
+[0;32mI (210434) camera: *** took picture? ***[0m
+[0;32mI (220434) camera: *** took picture? ***[0m
+[0;32mI (230434) camera: *** took picture? ***[0m
+[0;32mI (240434) camera: *** took picture? ***[0m
+[0;32mI (250434) camera: *** took picture? ***[0m
+[0;32mI (260434) camera: *** took picture? ***[0m
+[0;32mI (270434) camera: *** took picture? ***[0m
+[0;32mI (280434) camera: *** took picture? ***[0m
+[0;32mI (290434) camera: *** took picture? ***[0m
+[0;32mI (300434) camera: *** took picture? ***[0m
+[0;32mI (310434) camera: *** took picture? ***[0m
+[0;32mI (320434) camera: *** took picture? ***[0m
+[0;32mI (330434) camera: *** took picture? ***[0m
+[0;32mI (340434) camera: *** took picture? ***[0m
+[0;32mI (350434) camera: *** took picture? ***[0m
+[0;32mI (360434) camera: *** took picture? ***[0m
+[0;32mI (370434) camera: *** took picture? ***[0m
+[0;32mI (380434) camera: *** took picture? ***[0m
+[0;32mI (390434) camera: *** took picture? ***[0m
+[0;32mI (400434) camera: *** took picture? ***[0m
+[0;32mI (410434) camera: *** took picture? ***[0m
+[0;32mI (420434) camera: *** took picture? ***[0m
+[0;32mI (430434) camera: *** took picture? ***[0m
+[0;32mI (440434) camera: *** took picture? ***[0m
+[0;32mI (450434) camera: *** took picture? ***[0m
+[0;32mI (460434) camera: *** took picture? ***[0m
+[0;32mI (470434) camera: *** took picture? ***[0m
+[0;32mI (480434) camera: *** took picture? ***[0m
+[0;32mI (490434) camera: *** took picture? ***[0m
+[0;32mI (500434) camera: *** took picture? ***[0m
+[0;32mI (510434) camera: *** took picture? ***[0m
+[0;32mI (520434) camera: *** took picture? ***[0m
+[0;32mI (530434) camera: *** took picture? ***[0m
+[0;32mI (540434) camera: *** took picture? ***[0m
+[0;32mI (550434) camera: *** took picture? ***[0m
+[0;32mI (560434) camera: *** took picture? ***[0m
+[0;32mI (570434) camera: *** took picture? ***[0m
+[0;32mI (580434) camera: *** took picture? ***[0m
+[0;32mI (590434) camera: *** took picture? ***[0m
+[0;32mI (600434) camera: *** took picture? ***[0m
+[0;32mI (610434) camera: *** took picture? ***[0m
+[0;32mI (620434) camera: *** took picture? ***[0m
+[0;32mI (630434) camera: *** took picture? ***[0m
+[0;32mI (640434) camera: *** took picture? ***[0m
+[0;32mI (650434) camera: *** took picture? ***[0m
+[0;32mI (660434) camera: *** took picture? ***[0m
+[0;32mI (670434) camera: *** took picture? ***[0m
+[0;32mI (680434) camera: *** took picture? ***[0m
+[0;32mI (690434) camera: *** took picture? ***[0m
+[0;32mI (700434) camera: *** took picture? ***[0m
+[0;32mI (710434) camera: *** took picture? ***[0m
+[0;32mI (720434) camera: *** took picture? ***[0m
+[0;32mI (730434) camera: *** took picture? ***[0m
+[0;32mI (740434) camera: *** took picture? ***[0m
+[0;32mI (750434) camera: *** took picture? ***[0m
+[0;32mI (760434) camera: *** took picture? ***[0m
+[0;32mI (770434) camera: *** took picture? ***[0m
+[0;32mI (780434) camera: *** took picture? ***[0m
+[0;32mI (790434) camera: *** took picture? ***[0m
+[0;32mI (800434) camera: *** took picture? ***[0m
+[0;32mI (810434) camera: *** took picture? ***[0m
+[0;32mI (820434) camera: *** took picture? ***[0m
+[0;32mI (830434) camera: *** took picture? ***[0m
+[0;32mI (840434) camera: *** took picture? ***[0m
+[0;32mI (850434) camera: *** took picture? ***[0m
+[0;32mI (860434) camera: *** took picture? ***[0m
+[0;32mI (870434) camera: *** took picture? ***[0m
+[0;32mI (880434) camera: *** took picture? ***[0m
+[0;32mI (890434) camera: *** took picture? ***[0m
+[0;32mI (900434) camera: *** took picture? ***[0m
+[0;32mI (910434) camera: *** took picture? ***[0m
+[0;32mI (950434) camera: *** took picture? ***[0m
+[0;32mI (1190434) camera: *** took picture? ***[0m
+[0;32mI (1280434) camera: *** took picture? ***[0m
+[0;32mI (2070434) camera: *** took picture? ***[0m
+[0;32mI (2090434) camera: *** took picture? ***[0m
+[0;32mI (2250434) camera: *** took picture? ***[0m
+[0;32mI (2260434) camera: *** took picture? ***[0m
+[0;32mI (2270434) camera: *** took picture? ***[0m
+[0;32mI (2280434) camera: *** took picture? ***[0m
+[0;32mI (2290434) camera: *** took picture? ***[0m
+[0;32mI (2300434) camera: *** took picture? ***[0m
+[0;32mI (2310434) camera: *** took picture? ***[0m
+[0;32mI (2320434) camera: *** took picture? ***[0m
+[0;32mI (2330434) camera: *** took picture? ***[0m
+[0;32mI (2340434) camera: *** took picture? ***[0m
+[0;32mI (2350434) camera: *** took picture? ***[0m
+[0;32mI (2360434) camera: *** took picture? ***[0m
+[0;32mI (2370434) camera: *** took picture? ***[0m
+[0;32mI (2380434) camera: *** took picture? ***[0m
+[0;32mI (2390434) camera: *** took picture? ***[0m
+[0;32mI (2420434) camera: *** took picture? ***[0m
+[0;32mI (2430434) camera: *** took picture? ***[0m
+[0;32mI (2440434) camera: *** took picture? ***[0m
+[0;32mI (2450434) camera: *** took picture? ***[0m
+[0;32mI (2460434) camera: *** took picture? ***[0m
+[0;32mI (2470434) camera: *** took picture? ***[0m
+[0;32mI (2480434) camera: *** took picture? ***[0m
+[0;32mI (2490434) camera: *** took picture? ***[0m
+[0;32mI (2500434) camera: *** took picture? ***[0m
+[0;32mI (2510434) camera: *** took picture? ***[0m
+[0;32mI (1661) esp_netif_handlers: sta ip: 172.28.116.119, mask: 255.255.0.0, gw: 172.28.0.1[0m
+Starting image capture...
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+[0;32mI (27351) wifi:<ba-add>idx:1 (ifx:0, 74:88:bb:bc:3f:83), tid:3, ssn:0, winSize:64[0m
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
+*** got image data ***
+Error: PCLK timeout (low)
